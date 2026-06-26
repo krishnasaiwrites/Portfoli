@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucifer | Content Writing Executive Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #bb86fc;
+            --bg-dark: #121212;
+            --surface-dark: #1f1f1f;
+            --text-main: #e0e0e0;
+            --text-dim: #a0a0a0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-dark);
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        /* Header & Hero */
+        header {
+            background: linear-gradient(180deg, #1f1f1f 0%, #121212 100%);
+            padding: 5rem 1rem;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            letter-spacing: 4px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            margin-top: 10px;
+            font-weight: 300;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: #121212;
+            padding: 14px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            margin-top: 25px;
+            transition: 0.3s;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(187, 134, 252, 0.3);
+        }
+
+        /* Layout */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 80px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            border-left: 5px solid var(--primary-color);
+            padding-left: 15px;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+
+        /* Experience Card */
+        .card {
+            background: var(--surface-dark);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #333;
+        }
+
+        .experience-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .experience-list li {
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .experience-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+
+        /* Scripts Portfolio */
+        .script-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 25px;
+        }
+
+        .script-card {
+            background: #1a1a1a;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #222;
+        }
+
+        .script-header {
+            background: #252525;
+            padding: 15px 20px;
+            border-bottom: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .script-header span {
+            font-size: 0.8rem;
+            background: var(--primary-color);
+            color: #121212;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .script-body {
+            padding: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.95rem;
+            white-space: pre-wrap;
+            color: #d1d1d1;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .script-label {
+            color: var(--primary-color);
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+            border-bottom: 1px solid #333;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+
+        /* Skills */
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tag {
+            background: #252525;
+            padding: 8px 18px;
+            border-radius: 20px;
+            border: 1px solid #444;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 20px;
+            border-top: 1px solid #333;
+            color: var(--text-dim);
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 2.2rem; }
+            .card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>LUCIFER</h1>
+    <p>Content Writing Executive</p>
+    <a href="#contact" class="cta-btn">Available for Projects</a>
+</header>
+
+<div class="container">
+    
+    <!-- About Section -->
+    <section id="about">
+        <h2>Professional Profile</h2>
+        <div class="card">
+            <p>I am a creative Content Writing Executive and Published Author specializing in high-impact scriptwriting for digital marketing and brand promotions. With a track record of 150+ scripts, I help brands bridge the gap between creative storytelling and commercial conversion.</p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Expertise & Track Record</h2>
+        <div class="card">
+            <ul class="experience-list">
+                <li><strong>150+ High-Impact Scripts:</strong> Authored and executed video scripts for diverse marketing campaigns.</li>
+                <li><strong>Multilingual Proficiency:</strong> Specialist in English, Telugu-English, and Hindi-English audience engagement.</li>
+                <li><strong>Niche Experience:</strong> Deep expertise in Healthcare, Home Furnishings, and Digital Marketing sectors.</li>
+                <li><strong>Strategic Thinking:</strong> Expert in "Hook-Story-CTA" frameworks to maximize viewer retention.</li>
+                <li><strong>Published Author:</strong> Co-authored two anthology books, mastering the art of narrative-building.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Featured Script Samples</h2>
+        <div class="script-grid">
+
+            <!-- Script 1: Furnishing Hindi -->
+            <div class="script-card">
+                <div class="script-header">
+                    <strong>Furnishing Industry (Timeline Focus)</strong>
+                    <span>HINDI</span>
+                </div>
+                <div class="script-body">
+<span class="script-label">HOOK</span>
+"Project delay hone ki shuruaat kahan se hoti hai... Pata hai?"
+
+<span class="script-label">VOICE OVER</span>
+"Site par nahi... Fabric selection ke time pai. 
+Kabhi stock ka wait karna padta hai... Kabhi delivery ka wait karna padta hai... 
+Aur isi wajah se project timelines ka upar impact hoti hain. 
+Isliye furnishing partner choose karte waqt... Sirf products nahi... Unki service capability bhi dekhni chahiye. 
+Humare Premium Furnishing Brand mein... Selection se lekar supply tak... Process ko simple aur smooth rakha jaata hai. 
+Kyuki hamare liye... Project completion bhi utna hi important hai jitna fabric."
+
+<span class="script-label">CTA</span>
+"Apne next project ko scheduled timeline par complete karna chahte hain? Toh humse judiye."
+                </div>
+            </div>
+
+            <!-- Script 2: Healthcare Telugu -->
+            <div class="script-card">
+                <div class="script-header">
+                    <strong>Healthcare/Audiology (Early Detection)</strong>
+                    <span>TELUGU</span>
+                </div>
+                <div class="script-body">
+<span class="script-label">HOOK</span>
+"Oka simple test mee hearing future ni marchagaladhu ante... meeru nammutara?"
+
+<span class="script-label">VOICE OVER</span>
+Chala health problems laage...Hearing lo kuda changes early ga identify cheyyochu. 
+Kevalam 20–30 minutes lo mi hearing evaluation and Mee ears sounds ni ela receive chestunnayo...
+Mee brain ki information ela reach avuthundo ardham chesukovadaniki help chesthundi. 
+Problem pedhadhi ayyaka kaadhu...Mundhe telusukovadam important. 
+Early ga detect chesthe...Saraina guidance tho...Mee hearing ni protect chesukovadaniki correct decisions theesukovachu. 
+Mana specialized clinic lo... Experienced audiologists mee hearing ni detailed ga evaluate chesi... Mee report ni simple ga explain chestharu.
+Mee lifestyle ki suitable recommendations andistaru.
+
+<span class="script-label">CTA</span>
+Mee hearing gurinchi certainty kavala? Ee rojey maa hearing clinic lo mee free hearing appointment book chesukondi.
+                </div>
+            </div>
+
+            <!-- Script 3: Retail/B2B Fabric -->
+            <div class="script-card">
+                <div class="script-header">
+                    <strong>Retail Business Strategy (Fabric)</strong>
+                    <span>TELUGU / ENGLISH</span>
+                </div>
+                <div class="script-body">
+<span class="script-label">HOOK</span>
+"Successful retailers fabric cost ni matrame compare cheyyaru... Final rate ni kuda compare chestharu."
+
+<span class="script-label">VOICEOVER</span>
+Curtain retail business lo...Profit penchadam ante sales penchadam okkate kaadhu. 
+Material Purchasing decisions kuda correct ga undali. 
+Retailers ki biggest challenge price kaadhu... end of the day customer ke best price provide cheyadamu. 
+Anduke mana brand lo...ready stock vudadamu valla bulk lo fabric rolls ni transport lo import cheyadamu tho market lo challenging price provide chestunamu. 
+Anthe kaadhu...Ready stock availability valla...Waiting time kuda tagguthundi. 
+
+And more over mana brand lo Cut Length Service valla... Requirement ki sarpoye fabric matrame purchase cheyyachu. Extra stock maintain cheyyalsina avasaram ledhu. 
+
+<span class="script-label">CTA</span>
+If you are a retailer comment "FABRIC", we will share you the link. Maa team meeku complete details share chesthundi.
+                </div>
+            </div>
+
+             <!-- Script 4: Trust & Reliability Hindi -->
+             <div class="script-card">
+                <div class="script-header">
+                    <strong>Corporate/Partnership (B2B Hindi)</strong>
+                    <span>HINDI</span>
+                </div>
+                <div class="script-body">
+<span class="script-label">HOOK</span>
+"Har successful project ke peeche...ek reliable furnishing partner hota hai."
+
+<span class="script-label">VOICE OVER</span>
+"Jab deadlines important hoti hain...tab sirf products nahi...timely availability bhi matter karti hai. 
+Kyuki project tabhi smoothly complete hota hai...jab required stock ready ho... quality consistent ho...aur support reliable ho.
+Interior designers ho...retailers ho...ya sofa manufacturers… sabko ek aise partner ki zaroorat hoti hai… jo har order ke saath confidence deliver kare. 
+Kyuki furnishing business mein...trust sirf products se nahi… performance se banta hai."
+
+<span class="script-label">CLOSING</span>
+"Quality jispar aap trust kar sakein... Supply jispar aap depend kar sakein."
+                </div>
+            </div>
+
+            <!-- Script 5: Branding Telugu -->
+            <div class="script-card">
+                <div class="script-header">
+                    <strong>Home Style & Heritage</strong>
+                    <span>TELUGU</span>
+                </div>
+                <div class="script-body">
+<span class="script-label">HOOK</span>
+"Home furnishing ante chala mandi first gurthuku vachche peru ento thelusa?"
+
+<span class="script-label">VOICE OVER</span>
+Chala Years ga thousands of families trust chestunna name... Mana Brand Store.
+Curtains nundi wallpapers varaku... Sofa fabrics nundi blinds varaku... 
+Mee home ki kavalsina furnishing solutions anni oka chotane dorukuthayi. 
+Customers mamalni choose cheyyadaniki reasons chala simple... Wide variety of collection, Premium quality, And experienced team guidance. 
+Mee home style ki perfect match ayyela choose chesukovadam ma specialty.
+
+<span class="script-label">CTA</span>
+"Mee dream home ki perfect furnishings kosam, okkasari maa store ni visit cheyyandi." 
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <h2>Core Competencies</h2>
+        <div class="skill-tags">
+            <div class="tag">Script Writing</div>
+            <div class="tag">Hooks & CTAs</div>
+            <div class="tag">Digital Marketing Copy</div>
+            <div class="tag">Brand Storytelling</div>
+            <div class="tag">Content Strategy</div>
+            <div class="tag">Direct Response Writing</div>
+            <div class="tag">Full Stack Web Fundamentals</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <div class="card" style="text-align: center;">
+            <p>I am available for freelance projects and agency contracts.</p>
+            <p><strong>Email:</strong> luciferk0405@gmail.com</p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/krishna-sai-004974332" style="color: var(--primary-color);">Profile/krishna-sai</a></p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Lucifer. All Rights Reserved.</p>
+    <p>Scriptwriting | Content Strategy | Storytelling</p>
+</footer>
+
+</body>
+</html>
